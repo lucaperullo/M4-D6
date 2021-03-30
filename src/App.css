@@ -1,0 +1,51 @@
+body {
+  overflow-x: hidden;
+}
+.splide__slide {
+  padding: 40px;
+}
+.foodRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgba(199, 148, 148, 0.432);
+  height: 100%;
+  width: 77%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.react-rater-star.is-active {
+  color: rgb(218, 172, 74) !important;
+}
+@media (max-width: 1060px) {
+  .foodRow {
+    padding: 40px;
+    background-color: rgba(199, 148, 148, 0.432);
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 920px) {
+  .foodRow {
+    padding: 40px;
+    background-color: rgba(199, 148, 148, 0.432);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 815px) {
+  .foodRow {
+    padding: 40px;
+    background-color: rgba(199, 148, 148, 0.432);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
+  .foodRow {
+    height: 100%;
+  }
+}
